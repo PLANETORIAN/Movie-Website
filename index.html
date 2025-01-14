@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies_den</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="icon" href="favicon-32x32.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <div class="navbar">
+        <div class="nav-container">
+            <div class="logo">Movies_den</div>
+            <div class="types">
+                <ul class="items">
+                    <li class="item-list">
+                        <a href="#">
+                            <i class="fa-solid fa-house"></i>
+                        </a>
+                    </li>
+                    <li class="item-list">
+                        <a href="#movies">Movies</a>
+                    </li>
+                    <li class="item-list">
+                        <a href="#web-series">Web Series</a>
+                    </li>
+                    <li class="item-list">
+                        <a href="#top-rated">Top Rated</a>
+                    </li>
+                    <li class="item-list">
+                        <a href="#trending">
+                            <i class="fa-solid fa-fire"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="search">
+
+                <div class="search-container">
+                    <input type="text" placeholder="Search..."  class="search-input">
+                    <span class="search-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </span>
+                </div>
+            </div>
+            <nav class="nav">
+
+                <div class="sidebar-logo">
+                    <i class="fa-solid fa-bars btn"></i>
+                </div>
+            
+                <div class="sidebar">
+                    <div class="open-logo">
+                        <i class="fa-solid fa-bars btn"></i>
+                    </div>
+                    
+                    <div class="sidebar-content">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-solid fa-download"></i>
+                                    <span>Downloads</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-solid fa-heart"></i>
+                                    <span>Wishlist</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-solid fa-clock-rotate-left"></i>
+                                    <span>History</span>
+                                </a>
+                            </li>
+                        </ul>
+        
+                        <div class="bottom">
+                            <li>
+                                <a href="#">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span class="profile">Profile</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-solid fa-gear"></i>
+                                    <span>Settings</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-solid fa-right-from-bracket"></i>
+                                    <span>Logout</span>
+                                </a>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="overlay"></div>
+            
+        </div>
+    </div>
+    
+
+
+    <div class="container">
+        <div class="main-content">
+
+
+                    <!-- top carousel -->
+
+
+                    <section class="home swiper" id="home">
+                        <div class="swiper-wrapper">
+
+                            <div class="swiper-slide slides-container">
+                                <img src="Lord of the rings-The return of the king-top.webp" alt="">
+                                <div class="slides-text">
+                                    <h1>Lord Of The Rings</h1>
+                                    <div class="button">
+                                        <button class="movie-card-item-download-top">Watch</button>
+                                        <button class="movie-card-item-like-top" id="like-button"><i class="fa-regular fa-heart"></i></button>
+                                    </div>
+                                </div>
+                          </div>
+
+                          <div class="swiper-slide slides-container">
+                                <img src="Friends-top.webp" alt="">
+                                <div class="slides-text">
+                                    
+                                    <h1>Friends</h1>
+                                    <div class="button">
+                                        <button class="movie-card-item-download-top">Watch</button>
+                                        <button class="movie-card-item-like-top" id="like-button"><i class="fa-regular fa-heart"></i></button>
+                                    </div>
+                                </div>
+                          </div>
+
+                          <div class="swiper-slide slides-container">
+                                <img src="Peaky Blinders-top.jpg" alt="">
+                                <div class="slides-text">
+                                    
+                                    <h1>Peaky Blinders</h1>
+                                    <div class="button">
+                                        <button class="movie-card-item-download-top">Watch</button>
+                                        <button class="movie-card-item-like-top" id="like-button"><i class="fa-regular fa-heart"></i></button>
+                                    </div>
+                                </div>
+                          </div>
+
+                          <div class="swiper-slide slides-container">
+                            <img src="Game of Thrones-top.jpg" alt="">
+                                <div class="slides-text">
+                                    <h1>Game Of Thrones</h1>
+                                    <div class="button"><button class="movie-card-item-download-top">Watch</button>
+                                        <button class="movie-card-item-like-top" id="like-button"><i class="fa-regular fa-heart"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide slides-container">
+                                <img src="We live in time-top.webp" alt="">
+                                <div class="slides-text">
+                                    <h1>We <br>Live In<br>Time</h1>
+                                    <div class="button">
+                                        <button class="movie-card-item-download-top">Watch</button>
+                                        <button class="movie-card-item-like-top" id="like-button"><i class="fa-regular fa-heart"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+            <!--cards -->
+            <div class="movie-slider">
+                <!-- movies -->
+                <div class="movies anchor-space" id="movies">
+                    <h2 class="movie-slider-title">Movies</h2>
+                    <div class="movie-slider-container">
+                        <div class="movie-card js-movies">  
+                        </div> 
+                        <i class="fa-solid fa-chevron-right arrow"></i>
+                    </div>
+                </div>
+                <!-- web-series -->
+                <div class="web-series anchor-space" id="web-series">
+                    <h2 class="movie-slider-title">Web Series</h2>
+                    <div class="movie-slider-container">
+                        <div class="movie-card js-series">
+                        </div>
+                        <i class="fa-solid fa-chevron-right arrow"></i>
+                    </div>
+                </div>
+                <!-- Top-rated -->
+                <div class="top-rated anchor-space" id="top-rated">
+                    <h2 class="movie-slider-title">Top Rated</h2>
+                    <div class="movie-slider-container">
+                        <div class="movie-card js-top-rated">
+                        </div>
+                        <i class="fa-solid fa-chevron-right arrow"></i>
+                    </div>
+                </div>
+                <!-- trending -->
+                <div class="trending anchor-space" id="trending">
+                    <h2 class="movie-slider-title">Trending</h2>
+                    <div class="movie-slider-container">
+                        <div class="movie-card js-trending">
+                        </div>
+                        <i class="fa-solid fa-chevron-right arrow"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <span class="footer-logo">Movies_den</span></span>
+                <nav class="footer-links">
+                    <span>Terms and Privacy Notice</span>
+                    <span>Send us feedback</span>
+                    <span>Help</span>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                </nav>
+                <span class="footer-copyright">
+                    &copy; 2025 Movies_den, or its affiliates
+                </span>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script type="module" src="movie.js"></script>
+</body>
+
+</html>
